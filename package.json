@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build",  
+    "start": "serve -s dist",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview --host"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -17,6 +18,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0",
+    "serve": "^14.2.4",
     "tailwindcss": "^4.1.10"
   },
   "devDependencies": {

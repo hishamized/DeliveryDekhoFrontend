@@ -3,7 +3,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./app.css";
+import "./App.css";
  const baseUrl = import.meta.env.VITE_API_BASE_URL;
 
 // Admin Imports
